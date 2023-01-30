@@ -1,0 +1,90 @@
+Here is a list of concepts and relations, generate an ontology using the following format and must only use relations from the specified list:
+
+Format:
+[Concept A]-(Relation)->[Concept B]
+
+e.g. [X]-(is_child_of)->[Y]
+
+Concepts:
+Mindfulness-based clinical interventions
+meditation exercises
+psychoeducational elements
+cognitive-behavioural interventions
+movement exercises
+sitting meditation
+breath awareness
+focused attention
+awareness of sensations in the body (body scan)
+yoga exercises
+hatha yoga
+walking meditation
+mindful movement
+insight meditation
+mindfulness-based stress reduction (MBSR)
+mindfulness-based cognitive therapy (MBCT)
+benefits
+stress
+mood
+anxiety
+depressive mood
+sleep
+fatigue
+psychological functioning
+psychosocial adjustment
+stress reduction
+enhancements in coping and well-being symptoms;
+quality of life (QoL)
+
+Relations:
+is_child_of
+has_child*
+part_of
+has_part*
+contains
+is_contained_in*
+affects
+is_affected_by*
+manages
+is_managed_by*
+treats
+is_treated_by*
+disrupts
+is_disrupted_by*
+complicates
+is_complicated_by*
+interacts_with
+prevents
+is_prevented_by*
+is_result_of
+has_result*
+
+Context:
+Mindfulness-based stress reduction: Mindfulness-based
+clinical interventions combine meditation exercises with
+psychoeducational elements, cognitive-behavioural interventions
+and movement exercises. The core practices are
+sitting meditation with breath awareness and focused
+attention, awareness of sensations in the body (body scan),
+yoga exercises (e.g. hatha yoga, mindful movement),
+walking meditation and insight meditation. The two most
+used mindfulness-based clinical interventions in oncology
+are mindfulness-based stress reduction (MBSR) and
+mindfulness-based cognitive therapy (MBCT).
+MBSR is a specific multimodal programme focused on
+improving well-being and health. It has been used as an
+intervention for cancer patients. A meta-analysis showed
+the effects of MBSR on the mental health of cancer patients
+(Cohen’s effect size d ¼ 0.18).88 Documented benefits after
+programme participation include improvements in:
+ stress;
+ mood;
+ anxiety;
+ depressive mood;
+ sleep;
+ fatigue;
+ psychological functioning;
+ psychosocial adjustment;
+ stress reduction;
+ enhancements in coping and well-being symptoms;
+ QoL;
+ fear of recurrence.

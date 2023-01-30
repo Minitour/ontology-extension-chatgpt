@@ -1,0 +1,15 @@
+Here is a list of concepts and relations, generate an ontology using the following format and must only use relations from the specified list:
+
+Format:
+[Concept A]-(Relation)->[Concept B]
+
+e.g. [X]-(is_child_of)->[Y]
+
+Concepts:
+${CONCEPTS}
+
+Relations:
+${RELATIONSHIPS}
+
+Context:
+${CONTEXT}

@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:ObjectProperty rdf:about="https://example.org/f356efe9ae5d759375efe56e93bfbdaa">
+    <rdfs:label>result_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/cancer-related_fatigue_(crf)"/>
+    <rdfs:range rdf:resource="https://example.org/cancer"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/0bbc8acc971fc61e7b588296be1a8952">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/group_interventions"/>
+    <rdfs:range rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/0f34fb3d7ffa4b5ce5dfa12d1cc52730">
+    <rdfs:label>contains</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/information_and_counselling"/>
+    <rdfs:range rdf:resource="https://example.org/interactive_media"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/0ffc9db9e2654a0b12b6f478e4bf029d">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_stress_reduction_(mbsr)"/>
+    <rdfs:range rdf:resource="https://example.org/psychological_functioning"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/bea353ab8b5a350bf694129e2634b318">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/20-30_minute_sessions"/>
+    <rdfs:range rdf:resource="https://example.org/acupuncture_sessions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/740b8698c28cd293e390491649b0a546">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/quality_of_life_(qol)"/>
+    <rdfs:range rdf:resource="https://example.org/yoga"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/dfd56c75ea3a3444c6f571b2ad49b84e">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_stress_reduction_(mbsr)"/>
+    <rdfs:range rdf:resource="https://example.org/stress_reduction"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/c430e4d6eefedee8d32f5f531a7d37e7">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_stress_reduction_(mbsr)"/>
+    <rdfs:range rdf:resource="https://example.org/anxiety"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/68e65bd48535cf13b2ca1dc3e9bd3cc9">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+    <rdfs:range rdf:resource="https://example.org/sleep"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/ef9bba0960460c0f8d09a64e92bf9821">
+    <rdfs:label>manages</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/standard_survivorship_care"/>
+    <rdfs:range rdf:resource="https://example.org/yoga"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/36747eacaaa50319e44456a1db1e2778">
+    <rdfs:label>interacts_with</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/information_and_counselling"/>
+    <rdfs:range rdf:resource="https://example.org/family_member"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/700ce1dbf018b07cdc52b5e3fb2aca37">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/relaxation_techniques"/>
+    <rdfs:range rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/ac540f8bc1234a54c671db7e951c90eb">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+    <rdfs:range rdf:resource="https://example.org/stress"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/50fdbdd19821decd70e810de7a5d39f6">
+    <rdfs:label>prevents</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/information_and_counselling"/>
+    <rdfs:range rdf:resource="https://example.org/negative_psychosocial_implications"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/9439fd564b9fd2c6a43ffa55285d0bcf">
+    <rdfs:label>is_compared_with</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/placebo"/>
+    <rdfs:range rdf:resource="https://example.org/yoga"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/d60515affd9c4d8aa9667ad29a028efa">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_stress_reduction_(mbsr)"/>
+    <rdfs:range rdf:resource="https://example.org/sleep"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/daed12f4b74de1c0fa65ae90261768a3">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/cancer-related_fatigue_(crf)"/>
+    <rdfs:range rdf:resource="https://example.org/breast_cancer"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/ced565e5713b8e1aff61373440dadc4d">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_stress_reduction_(mbsr)"/>
+    <rdfs:range rdf:resource="https://example.org/mood"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/c005d119cae0e90bb5b06569464bf222">
+    <rdfs:label>contains</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/yoga"/>
+    <rdfs:range rdf:resource="https://example.org/meditation"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/1b3311de7b6df83ace5a43d014c13daa">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+    <rdfs:range rdf:resource="https://example.org/enhancements_in_coping_and_well-being_symptoms"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/6b4d6974ddf170737d62bdabba805833">
+    <rdfs:label>disrupts</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/emotional_withdrawal"/>
+    <rdfs:range rdf:resource="https://example.org/negative_psychosocial_implications"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/dbeee1bd926343f7c13c60ec081c3dfc">
+    <rdfs:label>manages</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_cognitive_therapy_(mbct)"/>
+    <rdfs:range rdf:resource="https://example.org/anxiety"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/5949e5a9dbdf2699dc1b4202c45a9657">
+    <rdfs:label>result_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/adverse_events_reported_in_six_studies"/>
+    <rdfs:range rdf:resource="https://example.org/randomised_controlled_trials_(rct)"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/41f540aa891ebfa445db9444eafb47f8">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+    <rdfs:range rdf:resource="https://example.org/mood"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/8240b337cbee5ca8abf37d946928ec1b">
+    <rdfs:label>prevents</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_cognitive_therapy_(mbct)"/>
+    <rdfs:range rdf:resource="https://example.org/relapse_of_depression"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://example.org/mind-body_interventions">
+    <rdfs:label>mind-body interventions</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="https://example.org/086ab6cf9aa32100a6c8cfe4e532207b">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/physical_training"/>
+    <rdfs:range rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/27766ab740bb8cb7fa81d8bc67ac1d8c">
+    <rdfs:label>contains</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/yoga"/>
+    <rdfs:range rdf:resource="https://example.org/breathing"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/0eca6f8c7ab68edfa476b88006d37fb8">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+    <rdfs:range rdf:resource="https://example.org/stress_reduction"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/ff87971a3804fa44f9ab42313972ae76">
+    <rdfs:label>result_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/significant_benefit_on_crf"/>
+    <rdfs:range rdf:resource="https://example.org/yoga"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/fbef68e3c63722696c415b33fb4a8a58">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+    <rdfs:range rdf:resource="https://example.org/psychosocial_adjustment"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/da55555170f94a6b71aeec316200c8c8">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/advice"/>
+    <rdfs:range rdf:resource="https://example.org/activity_plan"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/38647763c1241cc68c0cea4c94c74341">
+    <rdfs:label>manages</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_cognitive_therapy_(mbct)"/>
+    <rdfs:range rdf:resource="https://example.org/depressive_mood"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/5392e0f5eb385ca0d100654d457fca0c">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/walking_meditation"/>
+    <rdfs:range rdf:resource="https://example.org/meditation_exercises"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/42588512babd41bcfa6e92dbbbe475ff">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/cancer-related_fatigue_(crf)"/>
+    <rdfs:range rdf:resource="https://example.org/fatigue"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/937c2c386d1e9de8ee84ddc5ac9ca2b0">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/focused_attention"/>
+    <rdfs:range rdf:resource="https://example.org/sitting_meditation"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/c32bb7e7dc9cc186011910b3cd045796">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+    <rdfs:range rdf:resource="https://example.org/fatigue"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/4789a4122a2b8930ae03bacc43d60204">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/distress"/>
+    <rdfs:range rdf:resource="https://example.org/yoga"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/2f198a2f26434692a76601527a1e93cc">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/interactive_media"/>
+    <rdfs:range rdf:resource="https://example.org/internet_platforms"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/15b6d602b875031de22fc7a786b7de9f">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/stress"/>
+    <rdfs:range rdf:resource="https://example.org/yoga"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/408d9e60220e522f1d92fcd07454b984">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/fatigue"/>
+    <rdfs:range rdf:resource="https://example.org/yoga"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/7f2b02d48edb5373ab3c1d96ac647180">
+    <rdfs:label>result_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/benefits"/>
+    <rdfs:range rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/b56745452c1fc387c7a0d1013ad6a39f">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+    <rdfs:range rdf:resource="https://example.org/psychological_functioning"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/12767cef56e20d892ef689a2b7a80ff0">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/physical_activity"/>
+    <rdfs:range rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/db8b050aa79172176223ff4016e38084">
+    <rdfs:label>contains</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/yoga"/>
+    <rdfs:range rdf:resource="https://example.org/physical_poses"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://example.org/cognitive-behavioural_interventions">
+    <rdfs:label>cognitive-behavioural interventions</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="https://example.org/ab636360db7327c23cc64073ca4bf492">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/cancer_patients"/>
+    <rdfs:range rdf:resource="https://example.org/yoga"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/4819063f7db759d4ea563b3a89278207">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/activity_pacing"/>
+    <rdfs:range rdf:resource="https://example.org/activity_plan"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/babc2663b032083f093c7a946ef80c8d">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/coping_and_behaviour"/>
+    <rdfs:range rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/1ea2653b70f7681c6f9ddb73da7634c3">
+    <rdfs:label>result_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/reduction_in_fatigue_more_than_sham_acupuncture_or_usual_care"/>
+    <rdfs:range rdf:resource="https://example.org/randomised_controlled_trials_(rct)"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/bdfbe02ebb6117c6f39801578453282b">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/task_prioritisation"/>
+    <rdfs:range rdf:resource="https://example.org/activity_plan"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/04be13a4deaad74bae8841fb7e61caf0">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+    <rdfs:range rdf:resource="https://example.org/depressive_mood"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/7fc4c38887eae8fbd3ef9fa31cdb89d8">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_stress_reduction_(mbsr)"/>
+    <rdfs:range rdf:resource="https://example.org/psychosocial_adjustment"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/7efcb5d4594fada38a8886a247febb9b">
+    <rdfs:label>interacts_with</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_cognitive_therapy_(mbct)"/>
+    <rdfs:range rdf:resource="https://example.org/antidepressant_medication"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/f6891a941c0690f518baf2c9abaf4475">
+    <rdfs:label>manages</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/activity_plan"/>
+    <rdfs:range rdf:resource="https://example.org/cancer-related_fatigue_(crf)"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/057a15115c152774e737bbeedb0b3f61">
+    <rdfs:label>result_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/randomised_controlled_trials_(rct)"/>
+    <rdfs:range rdf:resource="https://example.org/promising_findings_from_pilot_study"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/24ce7702612ebf1fa4d47b7858a3451d">
+    <rdfs:label>complicates</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/psychosocial_factors"/>
+    <rdfs:range rdf:resource="https://example.org/cancer-related_fatigue_(crf)"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/78d67c38ba1936d5a2c5b13d3949f262">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/yoga_exercises"/>
+    <rdfs:range rdf:resource="https://example.org/movement_exercises"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/d722a57c576f07066b51c918257e92b2">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/activity_plan"/>
+    <rdfs:range rdf:resource="https://example.org/quality_of_life_(qol)"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/629f1806ac3e773d5ce40a34dd0c9d81">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/stress_management"/>
+    <rdfs:range rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/c0b166f0ee23bfbd21775866dc9d4b42">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/individual_interventions"/>
+    <rdfs:range rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/cef1b98c293196f30c1769a1fef60bad">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/acupuncture_sessions"/>
+    <rdfs:range rdf:resource="https://example.org/acupuncture"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/ac1499ac532553e8d3c383caf473d511">
+    <rdfs:label>disrupts</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/acupuncture"/>
+    <rdfs:range rdf:resource="https://example.org/sham_acupuncture"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/036f1b16576e7fcc014fa0e2e0be9c6d">
+    <rdfs:label>manages</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/acupuncture_sessions"/>
+    <rdfs:range rdf:resource="https://example.org/acupuncture"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://example.org/psychoeducational_elements">
+    <rdfs:label>psychoeducational elements</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="https://example.org/52c8b24acdba8c2476aac8396a59f776">
+    <rdfs:label>result_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/improvement_in_fatigue"/>
+    <rdfs:range rdf:resource="https://example.org/yoga"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/d842b2d9003e60497155a2f24b4bc925">
+    <rdfs:label>result_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/improvement_in_overall_qol"/>
+    <rdfs:range rdf:resource="https://example.org/yoga"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/28b6255dfb4fbc6a21c1b19f681952d2">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/energy_preservation"/>
+    <rdfs:range rdf:resource="https://example.org/activity_plan"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/a1b88a38ef85565e15bb9805580ad927">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/self-care"/>
+    <rdfs:range rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/b1d3b100cc79d06733c9bffac15b7ed6">
+    <rdfs:label>interacts_with</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/information_and_counselling"/>
+    <rdfs:range rdf:resource="https://example.org/partner"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/ac277bafc38fb0709f2dcaae29951f90">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/acupuncture"/>
+    <rdfs:range rdf:resource="https://example.org/cancer-related_fatigue_(crf)"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/8198bebbd4dd55d0b06252ae3ef02b37">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/sitting_meditation"/>
+    <rdfs:range rdf:resource="https://example.org/meditation_exercises"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/81b0064434b44094c131af1195a7258d">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindful_movement"/>
+    <rdfs:range rdf:resource="https://example.org/yoga_exercises"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/749a093da4072c427babd78daec77b96">
+    <rdfs:label>disrupts</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/misunderstandings"/>
+    <rdfs:range rdf:resource="https://example.org/negative_psychosocial_implications"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/88fd69d6c5eed6a4d1c0302dbc5c82f5">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_stress_reduction_(mbsr)"/>
+    <rdfs:range rdf:resource="https://example.org/enhancements_in_coping_and_well-being_symptoms"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/04055d40d7891a3fd381f324a25ed8a7">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/treatment"/>
+    <rdfs:range rdf:resource="https://example.org/cancer-related_fatigue_(crf)"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/679e93e6ffd480e1fbf461371baebc86">
+    <rdfs:label>result_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/improvement_in_stress/distress"/>
+    <rdfs:range rdf:resource="https://example.org/yoga"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/c80821176df41ecd1cc65709c7dfa28e">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+    <rdfs:range rdf:resource="https://example.org/anxiety"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/66a8c2fb61c0992c6780b593a916b95f">
+    <rdfs:label>result_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/yoga"/>
+    <rdfs:range rdf:resource="https://example.org/randomized_controlled_trials_(rcts)"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/0081800302283efd504e6eb8ab377d98">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/awareness_of_sensations_in_the_body_(body_scan)"/>
+    <rdfs:range rdf:resource="https://example.org/sitting_meditation"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/fb60d85a0adc649bdf81303c6f90788c">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/cognitive_appraisal"/>
+    <rdfs:range rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/f755f0fd8872b5450705307a9c3b8fd1">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_stress_reduction_(mbsr)"/>
+    <rdfs:range rdf:resource="https://example.org/fatigue"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/6b40dc36bf46a632344bebb826dca976">
+    <rdfs:label>contains</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/information_and_counselling"/>
+    <rdfs:range rdf:resource="https://example.org/brochures"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/4d5da86555d532525b8ecec794a6eb7c">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_stress_reduction_(mbsr)"/>
+    <rdfs:range rdf:resource="https://example.org/quality_of_life_(qol)"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/6fea9a3817263c7ac9d953a1196166be">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/insight_meditation"/>
+    <rdfs:range rdf:resource="https://example.org/meditation_exercises"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/ca3bc23ac4965afcdc9612d7f2fb7bf8">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/psychosocial_interventions"/>
+    <rdfs:range rdf:resource="https://example.org/cancer-related_fatigue_(crf)"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/46eafe46e8a91276c777ebfcc18fc7a4">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/breath_awareness"/>
+    <rdfs:range rdf:resource="https://example.org/sitting_meditation"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/e9e4c7dc91ab8b88ac2f582228de159d">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_stress_reduction_(mbsr)"/>
+    <rdfs:range rdf:resource="https://example.org/depressive_mood"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/a18914bbc8d7044bd387751d360ba96c">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/hatha_yoga"/>
+    <rdfs:range rdf:resource="https://example.org/yoga_exercises"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/988ad59dc92c6a2cf5aec397c3183496">
+    <rdfs:label>affects</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+    <rdfs:range rdf:resource="https://example.org/quality_of_life_(qol)"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/9d6b845846d982e9e47f1a9737d2dba7">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/twice_weekly_for_2_weeks"/>
+    <rdfs:range rdf:resource="https://example.org/acupuncture_sessions"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://example.org/psychosocial_counselling">
+    <rdfs:label>psychosocial counselling</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="https://example.org/996e3408d5e1939a5a9d44f5034394fa">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_stress_reduction_(mbsr)"/>
+    <rdfs:range rdf:resource="https://example.org/stress"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/e894c17988441f464b66fd4ae903e195">
+    <rdfs:label>treats</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mindfulness-based_stress_reduction_(mbsr)"/>
+    <rdfs:range rdf:resource="https://example.org/fear_of_recurrence"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/3e1709bc0a98cd1c76b0f20609b7b572">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/self-help"/>
+    <rdfs:range rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/7e35fa1fc1aaaee0370f4c1e0be3678c">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/weekly_for_6_weeks_thereafter"/>
+    <rdfs:range rdf:resource="https://example.org/acupuncture_sessions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/6c20db534e38f234b2825f5e0565fb92">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/energy_conservation"/>
+    <rdfs:range rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://example.org/psychoeducation">
+    <rdfs:label>psychoeducation</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="https://example.org/48a93fd67a59e87889f22c76b47388e6">
+    <rdfs:label>part_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/three_times_weekly_for_2-3_weeks"/>
+    <rdfs:range rdf:resource="https://example.org/acupuncture_sessions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://example.org/5180dba45af0576e461b0d6be2f6b553">
+    <rdfs:label>result_of</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/mark_effect_on_fatigue_in_cancer_patients"/>
+    <rdfs:range rdf:resource="https://example.org/randomised_controlled_trials_(rct)"/>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://example.org/psychotherapy">
+    <rdfs:label>psychotherapy</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/psychosocial_interventions"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/cancer_patients">
+    <rdfs:label>cancer patients</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/adverse_events_reported_in_six_studies">
+    <rdfs:label>adverse events reported in six studies</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/interactive_media">
+    <rdfs:label>interactive media</rdfs:label>
+    <rdfs:label>Interactive media</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/distress">
+    <rdfs:label>distress</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/meditation">
+    <rdfs:label>meditation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/psychosocial_factors">
+    <rdfs:label>psychosocial factors</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/coping_and_behaviour">
+    <rdfs:label>coping and behaviour</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/activity_plan">
+    <rdfs:label>activity plan</rdfs:label>
+    <rdfs:label>Activity plan</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/breath_awareness">
+    <rdfs:label>breath awareness</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/randomised_controlled_trials_(rct)">
+    <rdfs:label>randomised controlled trials (RCT)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/acupuncture"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/sitting_meditation">
+    <rdfs:label>sitting meditation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/hatha_yoga">
+    <rdfs:label>hatha yoga</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/cognitive_appraisal">
+    <rdfs:label>cognitive appraisal</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/benefits">
+    <rdfs:label>benefits</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/awareness_of_sensations_in_the_body_(body_scan)">
+    <rdfs:label>awareness of sensations in the body (body scan)</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/meditation_exercises">
+    <rdfs:label>meditation exercises</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/energy_conservation">
+    <rdfs:label>energy conservation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/sham_acupuncture">
+    <rdfs:label>sham acupuncture</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/reduction_in_fatigue_more_than_sham_acupuncture_or_usual_care">
+    <rdfs:label>reduction in fatigue more than sham acupuncture or usual care</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/psychosocial_interventions">
+    <rdfs:label>Psychosocial interventions</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/sleep">
+    <rdfs:label>sleep</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/physical_poses">
+    <rdfs:label>physical poses</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/mindfulness-based_cognitive_therapy_(mbct)">
+    <rdfs:label>mindfulness-based cognitive therapy (MBCT)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/mood">
+    <rdfs:label>mood</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/improvement_in_overall_qol">
+    <rdfs:label>improvement in overall QoL</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/breathing">
+    <rdfs:label>breathing</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/stress_management">
+    <rdfs:label>stress management</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/internet_platforms">
+    <rdfs:label>internet platforms</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/mind-body_intervention">
+    <rdfs:label>mind-body intervention</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/physical_training">
+    <rdfs:label>physical training</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/activity_pacing">
+    <rdfs:label>activity pacing</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/depressive_mood">
+    <rdfs:label>depressive mood</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/negative_psychosocial_implications">
+    <rdfs:label>negative psychosocial implications</rdfs:label>
+    <rdfs:label>Negative psychosocial implications</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/weekly_for_6_weeks_thereafter">
+    <rdfs:label>weekly for 6 weeks thereafter</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/placebo">
+    <rdfs:label>placebo</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/enhancements_in_coping_and_well-being_symptoms">
+    <rdfs:label>enhancements in coping and well-being symptoms</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/psychosocial_adjustment">
+    <rdfs:label>psychosocial adjustment</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/treatment">
+    <rdfs:label>treatment</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/mindful_movement">
+    <rdfs:label>mindful movement</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/antidepressant_medication">
+    <rdfs:label>antidepressant medication</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/task_prioritisation">
+    <rdfs:label>task prioritisation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/misunderstandings">
+    <rdfs:label>misunderstandings</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/brochures">
+    <rdfs:label>brochures</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/three_times_weekly_for_2-3_weeks">
+    <rdfs:label>three times weekly for 2-3 weeks</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/yoga">
+    <rdfs:label>Yoga</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/mind-body_intervention"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/family_member">
+    <rdfs:label>family member</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/focused_attention">
+    <rdfs:label>focused attention</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/walking_meditation">
+    <rdfs:label>walking meditation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/fear_of_recurrence">
+    <rdfs:label>fear of recurrence</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/mindfulness-based_clinical_interventions">
+    <rdfs:label>Mindfulness-based clinical interventions</rdfs:label>
+    <rdfs:label>mindfulness-based clinical interventions</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/meditation_exercises"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/cancer-related_fatigue_(crf)">
+    <rdfs:label>Cancer-related fatigue (CRF)</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/energy_preservation">
+    <rdfs:label>energy preservation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/promising_findings_from_pilot_study">
+    <rdfs:label>promising findings from pilot study</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/improvement_in_stress/distress">
+    <rdfs:label>improvement in stress/distress</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/improvement_in_fatigue">
+    <rdfs:label>improvement in fatigue</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/cancer">
+    <rdfs:label>cancer</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/mindfulness-based_stress_reduction_(mbsr)">
+    <rdfs:label>mindfulness-based stress reduction (MBSR)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/information_and_counselling">
+    <rdfs:label>Information and counselling</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/cancer-related_fatigue_(crf)"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/partner">
+    <rdfs:label>partner</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/relapse_of_depression">
+    <rdfs:label>relapse of depression</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/movement_exercises">
+    <rdfs:label>movement exercises</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/mindfulness-based_clinical_interventions"/>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/20-30_minute_sessions">
+    <rdfs:label>20-30 minute sessions</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/insight_meditation">
+    <rdfs:label>insight meditation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/yoga_exercises">
+    <rdfs:label>yoga exercises</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/individual_interventions">
+    <rdfs:label>individual interventions</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/fatigue">
+    <rdfs:label>fatigue</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/physical_activity">
+    <rdfs:label>physical activity</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/emotional_withdrawal">
+    <rdfs:label>emotional withdrawal</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/randomized_controlled_trials_(rcts)">
+    <rdfs:label>randomized controlled trials (RCTs)</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/anxiety">
+    <rdfs:label>anxiety</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/twice_weekly_for_2_weeks">
+    <rdfs:label>twice weekly for 2 weeks</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/self-care">
+    <rdfs:label>self-care</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/quality_of_life_(qol)">
+    <rdfs:label>quality of life (QoL)</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/relaxation_techniques">
+    <rdfs:label>relaxation techniques</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/standard_survivorship_care">
+    <rdfs:label>standard survivorship care</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/advice">
+    <rdfs:label>advice</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/significant_benefit_on_crf">
+    <rdfs:label>significant benefit on CRF</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/acupuncture_sessions">
+    <rdfs:label>acupuncture sessions</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/psychological_functioning">
+    <rdfs:label>psychological functioning</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/acupuncture">
+    <rdfs:label>Acupuncture</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/self-help">
+    <rdfs:label>self-help</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/stress">
+    <rdfs:label>stress</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/group_interventions">
+    <rdfs:label>group interventions</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/breast_cancer">
+    <rdfs:label>breast cancer</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/mark_effect_on_fatigue_in_cancer_patients">
+    <rdfs:label>mark effect on fatigue in cancer patients</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://example.org/stress_reduction">
+    <rdfs:label>stress reduction</rdfs:label>
+  </owl:Class>
+</rdf:RDF>
