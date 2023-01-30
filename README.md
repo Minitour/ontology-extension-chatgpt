@@ -11,3 +11,6 @@ We evaluate the method on a case study related to mindfulness-based clinical int
 cancer-related fatigue and utilizing the ChatGPT LLM. Relative to a manually generated gold standard, our method
 achieved a recall of 0.64 and a precision of 0.55. We discuss the results and limitations of our approach and suggest
 potential avenues for future research.
+
+## Visualization
+View the generated ontology in [WebVOWL](https://webvowl-service-z4yql2xsla-ez.a.run.app/#iri=https://raw.githubusercontent.com/Minitour/ontology-extension-chatgpt/main/supporting-files/ontology.xml).
