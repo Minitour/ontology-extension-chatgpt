@@ -1,0 +1,7 @@
+From the following paragraph, extract potential ontological concepts (classes) and respond in the following format.
+
+Format:
+- name
+
+Paragraph:
+{paragraph}
